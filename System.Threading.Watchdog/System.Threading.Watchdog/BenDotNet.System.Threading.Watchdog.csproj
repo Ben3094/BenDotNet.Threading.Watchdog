@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.0</TargetFramework>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Benjamin Saggin</Authors>
+    <Copyright>2018 Benjamin Saggin</Copyright>
+    <PackageLicenseUrl>https://github.com/Ben3094/System.Threading.Watchdog/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/Ben3094/System.Threading.Watchdog</PackageProjectUrl>
+  </PropertyGroup>
+
+</Project>
