@@ -6,8 +6,8 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Benjamin Saggin</Authors>
     <Copyright>2018 Benjamin Saggin</Copyright>
-    <PackageLicenseUrl>https://github.com/Ben3094/System.Threading.Watchdog/blob/master/LICENSE</PackageLicenseUrl>
-    <PackageProjectUrl>https://github.com/Ben3094/System.Threading.Watchdog</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/Ben3094/BenDotNet.Threading.Watchdog/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/Ben3094/BenDotNet.Threading.Watchdog</PackageProjectUrl>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
     <FileVersion>1.1.0.0</FileVersion>
     <Version>1.1.0</Version>
