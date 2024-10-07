@@ -11,13 +11,14 @@ namespace System.Threading
         {
             bool result = false;
             AutoResetEvent watchdog = new AutoResetEvent(false);
-            Task.Factory.StartNew(() =>
+            Task task = Task.Factory.StartNew(() =>
             {
                 action.Invoke();
                 watchdog.Set();
                 result = true;
             });
             watchdog.WaitOne(waitTime);
+            if (task.Exception.InnerException != null) throw task.Exception.InnerException;
             return result;
         }
     }

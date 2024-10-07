@@ -1,13 +1,13 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v1.0/",
-    "signature": "9a0b6ac8bd918fe11bd7e956e15451b11d5d6174"
+    "signature": ""
   },
   "compilationOptions": {},
   "targets": {
     ".NETStandard,Version=v1.0": {},
     ".NETStandard,Version=v1.0/": {
-      "BenDotNet.Threading.Watchdog/1.1.0": {
+      "BenDotNet.Threading.Watchdog/1.2.0": {
         "dependencies": {
           "NETStandard.Library": "1.6.1"
         },
@@ -202,7 +202,7 @@
     }
   },
   "libraries": {
-    "BenDotNet.Threading.Watchdog/1.1.0": {
+    "BenDotNet.Threading.Watchdog/1.2.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
