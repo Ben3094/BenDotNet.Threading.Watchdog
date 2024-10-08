@@ -1,6 +1,8 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Threading;
+using System.Threading.Tasks;
 
-namespace System.Threading
+namespace BenDotNet.Threading
 {
     public static class Watchdog
     {
